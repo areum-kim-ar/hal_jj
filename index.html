@@ -1137,6 +1137,18 @@
 
         </div>
     </footer>
+
+    <aside class="fixed right-3 sm:right-5 top-[90%] -translate-y-1/2 z-40 hidden md:flex flex-col gap-2 drop-shadow-xl"
+        aria-label="빠른 바로가기 배너">
+
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+            class="bg-white/90 hover:bg-white backdrop-blur-md rounded-2xl py-2 border border-slate-100 shadow-soft hover:shadow-soft-lg transition-all duration-300 flex flex-col items-center justify-center w-[72px] sm:w-[76px] text-slate-500 hover:text-teal-700 group mt-1"
+            title="맨 위로 가기">
+            <i data-lucide="chevron-up" class="w-4 h-4 group-hover:-translate-y-0.5 transition"></i>
+            <span class="text-[10px] font-extrabold tracking-tighter">TOP</span>
+        </button>
+    </aside>
+
     <!-- ==================== MOBILE FLOATING QUICK BAR ==================== -->
     <div
         class="lg:hidden fixed bottom-0 left-0 right-0 z-40 glass-nav border-t border-slate-200/80 px-4 py-3 flex items-center gap-2.5 shadow-soft-lg">
