@@ -1,10 +1,39 @@
+# 모든 일반 검색 로봇 허용
+User-agent: *
+Allow: /
+
+# ChatGPT 검색
+User-agent: OAI-SearchBot
+Allow: /
+
+# ChatGPT 사용자 요청에 따른 페이지 접근
+User-agent: ChatGPT-User
+Allow: /
+
+# Claude 검색 및 사용자 요청에 따른 페이지 접근
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Gemini 및 Google 검색
 User-agent: Googlebot
+Allow: /
+
+# Gemini 관련 콘텐츠 활용 설정
+User-agent: Google-Extended
+Allow: /
+
+# Bing 검색 및 Microsoft Copilot
+User-agent: Bingbot
+Allow: /
+
+# Perplexity 검색 허용
+User-agent: PerplexityBot
 Allow: /
 
 User-agent: Yeti
 Allow: /
-
-User-agent: *
-Disallow: /
 
 Sitemap: https://www.healimjeju.com/sitemap.xml
