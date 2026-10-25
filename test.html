@@ -2,8 +2,8 @@
 <html lang="ko" class="scroll-smooth">
 
 <head>
-	<meta name="naver-site-verification" content="f5baa774f4263f15b6b14243e6467643ab094641" />
-	<meta name="google-site-verification" content="KS7QJZZoEQwldMJ5XrVHOLx7uLpU5-luHBrFAZYEyb4" />
+    <meta name="naver-site-verification" content="f5baa774f4263f15b6b14243e6467643ab094641" />
+    <meta name="google-site-verification" content="KS7QJZZoEQwldMJ5XrVHOLx7uLpU5-luHBrFAZYEyb4" />
     <meta charset="UTF-8">
     <meta name="application-name" content="해아림한의원 제주점">
     <meta name="msapplication-tooltip" content="해아림한의원 제주점">
@@ -166,6 +166,40 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
+
+
+        /* 모바일 화면 너비 보정 */
+        html,
+        body {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+        }
+
+        main,
+        main>section {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        #diagnosis>div {
+            width: 100%;
+            max-width: 80rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        #diagnosis .grid {
+            width: 100%;
+            min-width: 0;
+        }
+
+        #diagnosis .grid>div {
+            min-width: 0;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 
@@ -190,7 +224,7 @@
                     <a href="#doctor" class="hover:text-toss-black transition">약력·치료철학</a>
                     <a href="#diagnosis" class="hover:text-toss-black transition">진단·검사안내</a>
                     <a href="#media" class="hover:text-toss-black transition">칼럼·영상</a>
-					<a href="/reviews/index.html" class="hover:text-toss-black transition">치료 후기</a>
+                    <a href="/reviews/index.html" class="hover:text-toss-black transition">치료 후기</a>
                     <a href="#contact" class="hover:text-toss-black transition">진료시간·오시는길</a>
                 </nav>
 
@@ -1121,7 +1155,7 @@
                                         </td>
                                     </tr>
 
-									<!-- 점심시간 -->
+                                    <!-- 점심시간 -->
                                     <tr class="bg-slate-50/50 text-xs sm:text-sm text-slate-600">
                                         <td
                                             class="py-3 sm:py-3.5 px-2 sm:px-4 font-bold border border-slate-200 text-slate-700">
@@ -1136,7 +1170,7 @@
                                             13:00 ~ 14:00
                                         </td>
                                     </tr>
-									
+
                                     <!-- 오후 진료 -->
                                     <tr>
                                         <td
@@ -1151,7 +1185,7 @@
 
                                         <td
                                             class="py-3.5 sm:py-4 px-2 sm:px-4 border border-slate-200 font-bold text-slate-800">
-                                            14:00 ~ 16:00 
+                                            14:00 ~ 16:00
                                         </td>
                                     </tr>
 
@@ -1622,7 +1656,7 @@
                 url: "http://www.bokuennews.com/news/article.html?no=284771",
                 image: "./img/6img2026.png"
             },
-			{
+            {
                 id: 2,
                 title: "공황장애와 미주신경성 실신 증상, 비슷하면서 달라… 자율신경계 이상 원인 치료 필요",
                 press: "메디컬투데이",
@@ -1688,7 +1722,7 @@
                 url: "https://www.mdtoday.co.kr/news/articleView.html?idxno=518109",
                 image: "./img/7img2026.png"
             },
-			{
+            {
                 id: 8,
                 title: "두통과 어지럼증, 이명...참지말고 원인과 악화 이유 맞춘 치료 필요",
                 press: "헤모필리아라이프",
