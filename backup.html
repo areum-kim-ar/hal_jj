@@ -841,7 +841,7 @@
                             class="text-teal-700 font-bold tracking-tight text-xs uppercase bg-white px-3 py-1.5 rounded-lg border border-slate-200/60 shadow-soft-sm">Media
                             & Columns</span>
                         <h2 class="text-3xl sm:text-4xl font-black text-toss-black tracking-tight">해아림 치료 후기</h2>
-                        <p class="text-slate-500 text-sm sm:text-base">권혜인 대표원장의 전문 의학 칼럼 및 주요 언론보도 기사를 한눈에 확인하실 수 있습니다.
+                        <p class="text-slate-500 text-sm sm:text-base">권혜인 대표원장의 치료후기를 한눈에 확인하실 수 있습니다.
                         </p>
                     </div>
 
@@ -857,89 +857,82 @@
                     </div>
                 </div>
 
-                <!-- 1. NEWS ARTICLES PANEL (Default active) -->
-                <div id="newsPanel" class="transition-all duration-300">
+                <!-- 1. reviewsPanel -->
+                <div id="reviewsPanel" class="transition-all duration-300">
 
-                    <!-- News Grid (Initially 6 cards rendered) -->
-                    <div id="newsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-300">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-                            <div
-                                class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
-                                <div class="space-y-3">
-                                    <div class="flex items-center justify-between"><span
-                                            class="text-[11px] font-bold text-[#2F5D50] bg-[#EAF3EF] px-2.5 py-1 rounded-full">✍️
-                                            원내 자필 수기 1호</span>
-                                        <span class="text-xs text-[#8B9891]">치료기간 9개월</span>
-                                    </div>
-                                    <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“공황증상과 비슷해 고통받던
-                                        자율신경실조증,
-                                        9개월 만에 치유되었습니다.”</h3>
-                                    <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">신미* 님</strong>
-                                        (자율신경실조증 ·
-                                        가슴두근거림 · 만성두통)</div>
-                                    <p
-                                        class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
-                                        심장이 두근거리고 빨리 뛰며 외출조차 두려웠는데 해아림에서 침치료와 한약 복용 후 두통과 가슴 두근거림이 완전히 사라졌습니다. 망설이지 마시고
-                                        치료받으셨으면
-                                        좋겠습니다.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div
+                            class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between"><span
+                                        class="text-[11px] font-bold text-[#2F5D50] bg-[#EAF3EF] px-2.5 py-1 rounded-full">✍️
+                                        원내 자필 수기</span>
+                                    <span class="text-xs text-[#8B9891]">치료기간 9개월</span>
                                 </div>
-                                <div
-                                    class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
-                                    <span>자율신경 안신 맞춤 한약</span>
-                                    <a href="/reviews/" class="hover:underline">자필 원본 보기 →</a>
-                                </div>
+                                <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“한약과 두뇌훈련을 함께 진행하며
+                                    9개월만에 완치되었습니다.”</h3>
+                                <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">용** 님</strong>
+                                    (틱증상 · 소아틱장애 · 운동틱)</div>
+                                <p
+                                    class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
+                                    처음 아이의 틱증상을 발견했을 때 너무 놀라고 무서웠습니다. 처음 내원하고 상담 받을 때는 눈물도 났어요. 내 아이가 왜 틱증상이 생겼을까.
+                                    내가 뭘 잘못했나. 상담과 치료받는 동안 선생님들께서 많이 도와주시고 좋은 말씀도 많이 해주셨어요.
+                                    많이 해주셔서 잘 치료 받으며 버텼습니다. 틱도 낫고 더 건강해진 것 같아서 감사합니다 </p>
                             </div>
                             <div
-                                class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
-                                <div class="space-y-3">
-                                    <div class="flex items-center justify-between"><span
-                                            class="text-[11px] font-bold text-[#03C75A] bg-[#E6F9EE] px-2.5 py-1 rounded-full">⭐
-                                            네이버 영수증 인증</span>
-                                        <div class="text-[#FFB800] text-xs">★★★★★ <span
-                                                class="text-[#888] text-[11px]">5.0</span></div>
-                                    </div>
-                                    <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“제 병에 대해 구체적으로
-                                        설명해주셔서 너무
-                                        좋았어요. 심리적으로 편안해집니다.”</h3>
-                                    <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">민흥 님</strong>
-                                        (공황장애 ·
-                                        불안장애 · 자율신경)</div>
-                                    <p
-                                        class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
-                                        다들 너무 친절하시고 특히 제 병에 대해서 설명을 구체적으로 해주셔서 병을 이해하고 받아들이기에 너무 좋았어요!! 한약 먹고 침치료 추나
-                                        병행해서 완전
-                                        강추합니다👍👍</p>
+                                class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
+                                <span>1:1 맞춤 소아틱 한방 맞춤한약 + 두뇌훈련 30회</span>
+                                <a href="/reviews/" class="hover:underline">자필 원본 보기 →</a>
+                            </div>
+                        </div>
+                        <div
+                            class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between"><span
+                                        class="text-[11px] font-bold text-[#03C75A] bg-[#E6F9EE] px-2.5 py-1 rounded-full">⭐
+                                        네이버 영수증 인증</span>
+                                    <div class="text-[#FFB800] text-xs">★★★★★ <span
+                                            class="text-[#888] text-[11px]">5.0</span></div>
                                 </div>
-                                <div
-                                    class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
-                                    <span>한약 + 침치료 + 추나요법</span>
-                                    <a href="/reviews/" class="hover:underline">리뷰 전체보기 →</a>
-                                </div>
+                                <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“안면홍조로 스트레스를 너무 많이
+                                    받았었는데 이제는 상대방을 보고 대화해도 홍조가 안올라와서 삶의 질이 많이 올라갔습니다.”</h3>
+                                <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">seo**** 님</strong>
+                                    (안면홍조 ·
+                                    자율신경실조증 · 불면증)</div>
+                                <p
+                                    class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
+                                    안면홍조로 스트레스를 너무 많이 받았었는데 이제는 상대방을 보고 대화해도 홍조가 안올라와서 삶의 질이 많이 올라갔습니다.</p>
                             </div>
                             <div
-                                class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
-                                <div class="space-y-3">
-                                    <div class="flex items-center justify-between"><span
-                                            class="text-[11px] font-bold text-[#2F5D50] bg-[#EAF3EF] px-2.5 py-1 rounded-full">✍️
-                                            원내 자필 수기 2호</span>
-                                        <span class="text-xs text-[#8B9891]">치료기간 8개월</span>
-                                    </div>
-                                    <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“복합 틱으로 막막했는데, 아이
-                                        본인이 컨트롤할
-                                        수 있는 힘이 생겼습니다.”</h3>
-                                    <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">황*아 (8세 여아) 보호자
-                                            님</strong> (소아 틱장애)</div>
-                                    <p
-                                        class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
-                                        눈깜빡임, 기침, 얼굴찡그림 등 복합 틱이 돌아가며 발현되어 걱정이 컸는데, 꾸준한 치료 후 증상 지속 시간이 짧아지고 아이 스스로 조절할 수
-                                        있는 힘이
-                                        생겼습니다.</p>
+                                class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
+                                <span>자율신경조율한약 + 두개골추나 +침구요법</span>
+                                <a href="/reviews/" class="hover:underline">리뷰 전체보기 →</a>
+                            </div>
+                        </div>
+                        <div
+                            class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between"><span
+                                        class="text-[11px] font-bold text-[#2F5D50] bg-[#EAF3EF] px-2.5 py-1 rounded-full">✍️
+                                        원내 자필 수기</span>
+                                    <span class="text-xs text-[#8B9891]">치료기간 3개월</span>
                                 </div>
-                                <div
-                                    class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
-                                    <span>두뇌 기저핵 맞춤 한약</span>
-                                    <a href="/reviews/" class="hover:underline">자필 원본 보기 →</a>
-                                </div>
+                                <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“치료받는 동안 땀이 눈에 보일 정도로
+                                    줄어들어서 일상생활이 편했어요.”</h3>
+                                <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">양**님</strong> (다한증 ·
+                                    자율신경실조증 · 불면증)</div>
+                                <p
+                                    class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
+                                    6개월 정도 치료기간을 잡았는데 3개월만 한약치료를 받았어요.
+                                    1개월은 눈에 띄게 좋아졌고 2개월차에는 약간 다시 돌아온 느낌이였어요.
+                                    3개월차에는 아예 줄어들어서 손이 건조해진 정도고요. 아마 6개월 했으면 좀 더
+                                    좋았을꺼예요. 약을 꾸준히 잘 먹으면 효과는 더 빠를 것 같아요.
+                                </p>
+                            </div>
+                            <div
+                                class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
+                                <span>1:1 맞춤 자율신경 조율 한약 + 침구치료</span>
+                                <a href="/reviews/" class="hover:underline">자필 원본 보기 →</a>
                             </div>
                         </div>
                     </div>
