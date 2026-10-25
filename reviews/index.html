@@ -870,18 +870,19 @@
                         <p class="text-xs sm:text-sm text-[#D6E5EA] max-w-xl mx-auto leading-relaxed">해아림한의원 제주점 권혜인
                             대표원장이 뇌파 검사, 체열 검사, 심층 문진을 통해 근본 원인을 정확히 찾아드립니다.</p>
                         <div class="pt-2 flex flex-wrap justify-center gap-3"><a
-                                href="https://booking.naver.com/booking/13/bizes/934695" target="_blank" rel="noopener"
+                                href="https://m.booking.naver.com/booking/13/bizes/1487948?theme=place&lang=ko&area=ple"
+                                target="_blank" rel="noopener"
                                 class="heal-btn heal-btn-naver text-sm font-bold px-5 py-3 rounded-xl bg-[#03C75A] text-white hover:bg-[#02B150] transition flex items-center gap-2"><i
                                     class="fa-solid fa-calendar-check"></i>
                                 <span>네이버 간편 진료예약</span>
-                            </a><a href="https://pf.kakao.com/_Tcxcxoxj" target="_blank" rel="noopener"
+                            </a><a href="https://pf.kakao.com/_twKxin" target="_blank" rel="noopener"
                                 class="heal-btn heal-btn-kakao text-sm font-bold px-5 py-3 rounded-xl bg-[#FEE500] text-[#191919] hover:bg-[#FDD835] transition flex items-center gap-2"><i
                                     class="fa-solid fa-comment"></i>
                                 <span>카카오톡 1:1 상담</span>
-                            </a><a href="tel:032-719-3472"
+                            </a><a href="tel:064-805-3338"
                                 class="heal-btn text-sm font-bold px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white transition flex items-center gap-2 border border-white/20"><i
                                     class="fa-solid fa-phone"></i>
-                                <span>032-719-3472 전화상담</span></a></div>
+                                <span>064-805-3338 전화상담</span></a></div>
                     </div>
                 </div>
                 <script>let currentCategory = "all"; const INITIAL_LIMIT = 8, STEP = 6; let visibleLimit = INITIAL_LIMIT; function showTab(e) { const t = document.getElementById("naver-section"), n = document.getElementById("handwritten-section"), s = document.getElementById("tab-naver"), o = document.getElementById("tab-handwritten"); e === "naver" ? (t && (t.style.display = "block"), n && (n.style.display = "none"), s.className = "px-5 py-3 rounded-xl font-extrabold text-sm sm:text-base transition-all duration-200 bg-[#2397C1] text-white shadow-md flex items-center gap-2 cursor-pointer", o.className = "px-5 py-3 rounded-xl font-extrabold text-sm sm:text-base transition-all duration-200 bg-[#F3F8FA] text-[#52717D] hover:bg-[#E2EEF2] flex items-center gap-2 border border-[#D6E5EA] cursor-pointer") : (t && (t.style.display = "none"), n && (n.style.display = "block"), o.className = "px-5 py-3 rounded-xl font-extrabold text-sm sm:text-base transition-all duration-200 bg-[#2397C1] text-white shadow-md flex items-center gap-2 cursor-pointer", s.className = "px-5 py-3 rounded-xl font-extrabold text-sm sm:text-base transition-all duration-200 bg-[#F3F8FA] text-[#52717D] hover:bg-[#E2EEF2] flex items-center gap-2 border border-[#D6E5EA] cursor-pointer") } function updateReviewDisplay() { const s = document.querySelectorAll(".review-item"); let e = []; s.forEach(t => { const n = t.getAttribute("data-category") || ""; currentCategory === "all" || n.includes(currentCategory) ? e.push(t) : t.style.display = "none" }), e.forEach((e, t) => { t < visibleLimit ? e.style.display = "flex" : e.style.display = "none" }); const o = e.length, t = Math.max(0, o - visibleLimit), i = document.getElementById("load-more-btn"), a = document.getElementById("load-more-count"), n = document.getElementById("load-more-container"); t > 0 ? (n.style.display = "block", i.style.display = "inline-flex", a.textContent = `+${t}개 더보기`) : n.style.display = "none" } function filterReviews(e) { currentCategory = e, visibleLimit = INITIAL_LIMIT; const t = document.querySelectorAll(".filter-btn"); t.forEach(t => { t.getAttribute("data-cat") === e ? t.className = "filter-btn px-3.5 py-2 rounded-lg text-xs font-extrabold transition bg-[#2397C1] text-white" : t.className = "filter-btn px-3.5 py-2 rounded-lg text-xs font-extrabold transition bg-[#F3F8FA] text-[#52717D] hover:bg-[#E2EEF2]" }), updateReviewDisplay() } function loadMoreReviews() { visibleLimit += STEP, updateReviewDisplay() } const AUTH_KEY = "healim_kakao_verified_user"; function isUserAuthenticated() { return localStorage.getItem(AUTH_KEY) === "true" } function updateAuthUI() {
