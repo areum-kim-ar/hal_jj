@@ -831,6 +831,125 @@
             </div>
         </section>
 
+        <!-- ==================== MEDIA BOARD (NEWS ARTICLES, YOUTUBE & BLOG) ==================== -->
+        <section id="reviewdel" class="py-28 sm:py-36 bg-toss-bg border-t border-slate-100">
+            <div class="max-w-7xl mx-auto px-5 sm:px-8">
+
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+                    <div class="space-y-3">
+                        <span
+                            class="text-teal-700 font-bold tracking-tight text-xs uppercase bg-white px-3 py-1.5 rounded-lg border border-slate-200/60 shadow-soft-sm">Media
+                            & Columns</span>
+                        <h2 class="text-3xl sm:text-4xl font-black text-toss-black tracking-tight">해아림 치료 후기</h2>
+                        <p class="text-slate-500 text-sm sm:text-base">권혜인 대표원장의 전문 의학 칼럼 및 주요 언론보도 기사를 한눈에 확인하실 수 있습니다.
+                        </p>
+                    </div>
+
+                    <!-- Media Tab Switcher -->
+                    <div class="flex flex-wrap items-center gap-2">
+                        <div class="inline-flex p-1.5 bg-slate-200/80 rounded-2xl">
+                            <a href="/reviews/"
+                                class="px-4 sm:px-5 py-2.5 rounded-xl text-xs font-bold transition-all duration-200 bg-white text-toss-black shadow-soft-sm flex items-center gap-2">
+                                <i data-lucide="newspaper" class="w-4 h-4 text-teal-700"></i>
+                                <span>치료 후기 (10+)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1. NEWS ARTICLES PANEL (Default active) -->
+                <div id="newsPanel" class="transition-all duration-300">
+
+                    <!-- News Grid (Initially 6 cards rendered) -->
+                    <div id="newsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-300">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                            <div
+                                class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between"><span
+                                            class="text-[11px] font-bold text-[#2F5D50] bg-[#EAF3EF] px-2.5 py-1 rounded-full">✍️
+                                            원내 자필 수기 1호</span>
+                                        <span class="text-xs text-[#8B9891]">치료기간 9개월</span>
+                                    </div>
+                                    <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“공황증상과 비슷해 고통받던
+                                        자율신경실조증,
+                                        9개월 만에 치유되었습니다.”</h3>
+                                    <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">신미* 님</strong>
+                                        (자율신경실조증 ·
+                                        가슴두근거림 · 만성두통)</div>
+                                    <p
+                                        class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
+                                        심장이 두근거리고 빨리 뛰며 외출조차 두려웠는데 해아림에서 침치료와 한약 복용 후 두통과 가슴 두근거림이 완전히 사라졌습니다. 망설이지 마시고
+                                        치료받으셨으면
+                                        좋겠습니다.</p>
+                                </div>
+                                <div
+                                    class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
+                                    <span>자율신경 안신 맞춤 한약</span>
+                                    <a href="/reviews/" class="hover:underline">자필 원본 보기 →</a>
+                                </div>
+                            </div>
+                            <div
+                                class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between"><span
+                                            class="text-[11px] font-bold text-[#03C75A] bg-[#E6F9EE] px-2.5 py-1 rounded-full">⭐
+                                            네이버 영수증 인증</span>
+                                        <div class="text-[#FFB800] text-xs">★★★★★ <span
+                                                class="text-[#888] text-[11px]">5.0</span></div>
+                                    </div>
+                                    <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“제 병에 대해 구체적으로
+                                        설명해주셔서 너무
+                                        좋았어요. 심리적으로 편안해집니다.”</h3>
+                                    <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">민흥 님</strong>
+                                        (공황장애 ·
+                                        불안장애 · 자율신경)</div>
+                                    <p
+                                        class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
+                                        다들 너무 친절하시고 특히 제 병에 대해서 설명을 구체적으로 해주셔서 병을 이해하고 받아들이기에 너무 좋았어요!! 한약 먹고 침치료 추나
+                                        병행해서 완전
+                                        강추합니다👍👍</p>
+                                </div>
+                                <div
+                                    class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
+                                    <span>한약 + 침치료 + 추나요법</span>
+                                    <a href="/reviews/" class="hover:underline">리뷰 전체보기 →</a>
+                                </div>
+                            </div>
+                            <div
+                                class="heal-card flex flex-col justify-between p-6 bg-white border-2 border-[#CDE5D8] rounded-2xl shadow-sm hover:shadow-md transition space-y-4">
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between"><span
+                                            class="text-[11px] font-bold text-[#2F5D50] bg-[#EAF3EF] px-2.5 py-1 rounded-full">✍️
+                                            원내 자필 수기 2호</span>
+                                        <span class="text-xs text-[#8B9891]">치료기간 8개월</span>
+                                    </div>
+                                    <h3 class="text-base font-extrabold text-[#1E4638] leading-snug">“복합 틱으로 막막했는데, 아이
+                                        본인이 컨트롤할
+                                        수 있는 힘이 생겼습니다.”</h3>
+                                    <div class="text-xs text-[#8B9891]"><strong class="text-[#26332E]">황*아 (8세 여아) 보호자
+                                            님</strong> (소아 틱장애)</div>
+                                    <p
+                                        class="text-xs text-[#53615B] leading-relaxed bg-[#F9FAF8] p-3.5 rounded-xl border border-[#EDF2EE]">
+                                        눈깜빡임, 기침, 얼굴찡그림 등 복합 틱이 돌아가며 발현되어 걱정이 컸는데, 꾸준한 치료 후 증상 지속 시간이 짧아지고 아이 스스로 조절할 수
+                                        있는 힘이
+                                        생겼습니다.</p>
+                                </div>
+                                <div
+                                    class="pt-3 border-t border-[#F2F7F4] flex items-center justify-between text-xs text-[#2F5D50] font-bold">
+                                    <span>두뇌 기저핵 맞춤 한약</span>
+                                    <a href="/reviews/" class="hover:underline">자필 원본 보기 →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
         <!-- ==================== reviews ==================== -->
         <section id="reviews" class="py-28 sm:py-36 bg-toss-bg border-t border-slate-100">
             <div class="max-w-7xl mx-auto px-5 sm:px-8">
