@@ -1465,5 +1465,29 @@
         data-cf-beacon='{"version":"2024.11.0","token":"d07c388263ed47ef9fe03b4126715eb0","r":1}'
         crossorigin="anonymous"></script>
 </body>
+<!-- ==================== JAVASCRIPT LOGIC ==================== -->
+    <script>
+        // 1. Lucide Icons 초기화
+        lucide.createIcons();
 
+        // 2. 모바일 메뉴 토글
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOpenIcon = document.getElementById('menuOpenIcon');
+        const menuCloseIcon = document.getElementById('menuCloseIcon');
+
+        function toggleMobileMenu() {
+            const isOpen = !mobileMenu.classList.contains('hidden');
+            if (isOpen) {
+                mobileMenu.classList.add('hidden');
+                menuOpenIcon.classList.remove('hidden');
+                menuCloseIcon.classList.add('hidden');
+            } else {
+                mobileMenu.classList.remove('hidden');
+                menuOpenIcon.classList.add('hidden');
+                menuCloseIcon.classList.remove('hidden');
+            }
+        }
+        mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+    </script>
 </html>
